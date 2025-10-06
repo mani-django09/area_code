@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://allareacodes.cloud
+
+# Sitemaps
+Sitemap: https://allareacodes.cloud/sitemap.xml

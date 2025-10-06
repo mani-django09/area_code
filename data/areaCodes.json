@@ -1,0 +1,2378 @@
+[
+     {
+    "code": "201",
+    "state": "New Jersey",
+    "cities": ["Jersey City", "Hackensack", "Hoboken"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1947,
+    "related_codes": ["551", "973"]
+  },
+  {
+    "code": "202",
+    "state": "District of Columbia",
+    "cities": ["Washington DC"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1947,
+    "related_codes": []
+  },
+  {
+    "code": "203",
+    "state": "Connecticut",
+    "cities": ["New Haven", "Bridgeport", "Stamford"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1947,
+    "related_codes": ["475"]
+  },
+  {
+    "code": "205",
+    "state": "Alabama",
+    "cities": ["Birmingham", "Tuscaloosa"],
+    "timezone": "Central Time (CT)",
+    "year": 1947,
+    "related_codes": ["659"]
+  },
+  {
+    "code": "206",
+    "state": "Washington",
+    "cities": ["Seattle"],
+    "timezone": "Pacific Time (PT)",
+    "year": 1947,
+    "related_codes": ["253", "425"]
+  },
+  {
+    "code": "207",
+    "state": "Maine",
+    "cities": ["Portland", "Augusta", "Bangor"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1947,
+    "related_codes": []
+  },
+  {
+    "code": "208",
+    "state": "Idaho",
+    "cities": ["Boise", "Nampa", "Meridian"],
+    "timezone": "Mountain Time (MT)",
+    "year": 1947,
+    "related_codes": ["986"]
+  },
+  {
+    "code": "209",
+    "state": "California",
+    "cities": ["Stockton", "Modesto", "Fresno"],
+    "timezone": "Pacific Time (PT)",
+    "year": 1958,
+    "related_codes": []
+  },
+  {
+    "code": "210",
+    "state": "Texas",
+    "cities": ["San Antonio"],
+    "timezone": "Central Time (CT)",
+    "year": 1992,
+    "related_codes": ["726"]
+  },
+  {
+    "code": "212",
+    "state": "New York",
+    "cities": ["Manhattan", "New York City"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1947,
+    "related_codes": ["646", "917", "332"]
+  },
+  {
+    "code": "213",
+    "state": "California",
+    "cities": ["Los Angeles", "Downtown LA"],
+    "timezone": "Pacific Time (PT)",
+    "year": 1947,
+    "related_codes": ["310", "323", "424"]
+  },
+  {
+    "code": "214",
+    "state": "Texas",
+    "cities": ["Dallas"],
+    "timezone": "Central Time (CT)",
+    "year": 1947,
+    "related_codes": ["469", "972"]
+  },
+  {
+    "code": "215",
+    "state": "Pennsylvania",
+    "cities": ["Philadelphia"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1947,
+    "related_codes": ["267", "445"]
+  },
+  {
+    "code": "216",
+    "state": "Ohio",
+    "cities": ["Cleveland"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1947,
+    "related_codes": ["440"]
+  },
+  {
+    "code": "217",
+    "state": "Illinois",
+    "cities": ["Springfield", "Champaign"],
+    "timezone": "Central Time (CT)",
+    "year": 1947,
+    "related_codes": []
+  },
+  {
+    "code": "218",
+    "state": "Minnesota",
+    "cities": ["Duluth"],
+    "timezone": "Central Time (CT)",
+    "year": 1947,
+    "related_codes": []
+  },
+  {
+    "code": "219",
+    "state": "Indiana",
+    "cities": ["Gary", "Hammond"],
+    "timezone": "Central Time (CT)",
+    "year": 1947,
+    "related_codes": ["574"]
+  },
+  {
+    "code": "224",
+    "state": "Illinois",
+    "cities": ["Elgin", "Waukegan"],
+    "timezone": "Central Time (CT)",
+    "year": 2002,
+    "related_codes": ["847"]
+  },
+  {
+    "code": "225",
+    "state": "Louisiana",
+    "cities": ["Baton Rouge"],
+    "timezone": "Central Time (CT)",
+    "year": 1998,
+    "related_codes": []
+  },
+  {
+    "code": "228",
+    "state": "Mississippi",
+    "cities": ["Gulfport", "Biloxi"],
+    "timezone": "Central Time (CT)",
+    "year": 1999,
+    "related_codes": []
+  },
+  {
+    "code": "229",
+    "state": "Georgia",
+    "cities": ["Albany", "Valdosta"],
+    "timezone": "Eastern Time (ET)",
+    "year": 2000,
+    "related_codes": []
+  },
+  {
+    "code": "231",
+    "state": "Michigan",
+    "cities": ["Traverse City", "Muskegon"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1999,
+    "related_codes": []
+  },
+  {
+    "code": "234",
+    "state": "Ohio",
+    "cities": ["Akron", "Canton"],
+    "timezone": "Eastern Time (ET)",
+    "year": 2000,
+    "related_codes": ["330"]
+  },
+  {
+    "code": "239",
+    "state": "Florida",
+    "cities": ["Fort Myers", "Naples"],
+    "timezone": "Eastern Time (ET)",
+    "year": 2002,
+    "related_codes": []
+  },
+  {
+    "code": "240",
+    "state": "Maryland",
+    "cities": ["Rockville", "Gaithersburg"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1997,
+    "related_codes": ["301"]
+  },
+  {
+    "code": "248",
+    "state": "Michigan",
+    "cities": ["Troy", "Pontiac"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1997,
+    "related_codes": ["947"]
+  },
+  {
+    "code": "251",
+    "state": "Alabama",
+    "cities": ["Mobile"],
+    "timezone": "Central Time (CT)",
+    "year": 2001,
+    "related_codes": []
+  },
+  {
+    "code": "252",
+    "state": "North Carolina",
+    "cities": ["Greenville", "Rocky Mount"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1998,
+    "related_codes": []
+  },
+  {
+    "code": "253",
+    "state": "Washington",
+    "cities": ["Tacoma"],
+    "timezone": "Pacific Time (PT)",
+    "year": 1997,
+    "related_codes": ["206"]
+  },
+  {
+    "code": "254",
+    "state": "Texas",
+    "cities": ["Waco", "Killeen"],
+    "timezone": "Central Time (CT)",
+    "year": 1997,
+    "related_codes": []
+  },
+  {
+    "code": "256",
+    "state": "Alabama",
+    "cities": ["Huntsville"],
+    "timezone": "Central Time (CT)",
+    "year": 1998,
+    "related_codes": []
+  },
+  {
+    "code": "260",
+    "state": "Indiana",
+    "cities": ["Fort Wayne"],
+    "timezone": "Eastern Time (ET)",
+    "year": 2002,
+    "related_codes": []
+  },
+  {
+    "code": "262",
+    "state": "Wisconsin",
+    "cities": ["Kenosha", "Racine"],
+    "timezone": "Central Time (CT)",
+    "year": 1999,
+    "related_codes": []
+  },
+  {
+    "code": "267",
+    "state": "Pennsylvania",
+    "cities": ["Philadelphia"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1999,
+    "related_codes": ["215"]
+  },
+  {
+    "code": "269",
+    "state": "Michigan",
+    "cities": ["Kalamazoo", "Battle Creek"],
+    "timezone": "Eastern Time (ET)",
+    "year": 2002,
+    "related_codes": []
+  },
+  {
+    "code": "270",
+    "state": "Kentucky",
+    "cities": ["Bowling Green", "Owensboro"],
+    "timezone": "Central Time (CT)",
+    "year": 1999,
+    "related_codes": []
+  },
+  {
+    "code": "272",
+    "state": "Pennsylvania",
+    "cities": ["Scranton"],
+    "timezone": "Eastern Time (ET)",
+    "year": 2015,
+    "related_codes": ["570"]
+  },
+  {
+    "code": "276",
+    "state": "Virginia",
+    "cities": ["Bristol", "Martinsville"],
+    "timezone": "Eastern Time (ET)",
+    "year": 2001,
+    "related_codes": []
+  },
+  {
+    "code": "281",
+    "state": "Texas",
+    "cities": ["Houston"],
+    "timezone": "Central Time (CT)",
+    "year": 1996,
+    "related_codes": ["713", "832"]
+  },
+  {
+    "code": "301",
+    "state": "Maryland",
+    "cities": ["Rockville", "Frederick"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1947,
+    "related_codes": ["240"]
+  },
+  {
+    "code": "302",
+    "state": "Delaware",
+    "cities": ["Wilmington", "Dover"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1947,
+    "related_codes": []
+  },
+  {
+    "code": "303",
+    "state": "Colorado",
+    "cities": ["Denver", "Aurora"],
+    "timezone": "Mountain Time (MT)",
+    "year": 1947,
+    "related_codes": ["720"]
+  },
+  {
+    "code": "304",
+    "state": "West Virginia",
+    "cities": ["Charleston", "Huntington"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1947,
+    "related_codes": []
+  },
+  {
+    "code": "305",
+    "state": "Florida",
+    "cities": ["Miami", "Key West"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1947,
+    "related_codes": ["786"]
+  },
+  {
+    "code": "307",
+    "state": "Wyoming",
+    "cities": ["Cheyenne", "Casper"],
+    "timezone": "Mountain Time (MT)",
+    "year": 1947,
+    "related_codes": []
+  },
+  {
+    "code": "308",
+    "state": "Nebraska",
+    "cities": ["Grand Island", "North Platte"],
+    "timezone": "Central Time (CT)",
+    "year": 1954,
+    "related_codes": []
+  },
+  {
+    "code": "310",
+    "state": "California",
+    "cities": ["Santa Monica", "Beverly Hills", "Torrance"],
+    "timezone": "Pacific Time (PT)",
+    "year": 1991,
+    "related_codes": ["213", "424"]
+  },
+  {
+    "code": "312",
+    "state": "Illinois",
+    "cities": ["Chicago"],
+    "timezone": "Central Time (CT)",
+    "year": 1947,
+    "related_codes": ["773", "872"]
+  },
+  {
+    "code": "313",
+    "state": "Michigan",
+    "cities": ["Detroit"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1947,
+    "related_codes": []
+  },
+  {
+    "code": "314",
+    "state": "Missouri",
+    "cities": ["St. Louis"],
+    "timezone": "Central Time (CT)",
+    "year": 1947,
+    "related_codes": ["557"]
+  },
+  {
+    "code": "315",
+    "state": "New York",
+    "cities": ["Syracuse", "Utica"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1947,
+    "related_codes": []
+  },
+  {
+    "code": "316",
+    "state": "Kansas",
+    "cities": ["Wichita"],
+    "timezone": "Central Time (CT)",
+    "year": 1947,
+    "related_codes": []
+  },
+  {
+    "code": "317",
+    "state": "Indiana",
+    "cities": ["Indianapolis"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1947,
+    "related_codes": []
+  },
+  {
+    "code": "318",
+    "state": "Louisiana",
+    "cities": ["Shreveport", "Monroe"],
+    "timezone": "Central Time (CT)",
+    "year": 1957,
+    "related_codes": []
+  },
+  {
+    "code": "319",
+    "state": "Iowa",
+    "cities": ["Cedar Rapids", "Dubuque"],
+    "timezone": "Central Time (CT)",
+    "year": 1947,
+    "related_codes": []
+  },
+  {
+    "code": "320",
+    "state": "Minnesota",
+    "cities": ["St. Cloud"],
+    "timezone": "Central Time (CT)",
+    "year": 1996,
+    "related_codes": []
+  },
+  {
+    "code": "321",
+    "state": "Florida",
+    "cities": ["Orlando", "Cocoa Beach"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1999,
+    "related_codes": ["407"]
+  },
+  {
+    "code": "323",
+    "state": "California",
+    "cities": ["Los Angeles"],
+    "timezone": "Pacific Time (PT)",
+    "year": 1998,
+    "related_codes": ["213"]
+  },
+  {
+    "code": "325",
+    "state": "Texas",
+    "cities": ["Abilene", "San Angelo"],
+    "timezone": "Central Time (CT)",
+    "year": 2003,
+    "related_codes": []
+  },
+  {
+    "code": "330",
+    "state": "Ohio",
+    "cities": ["Akron", "Canton"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1996,
+    "related_codes": ["234"]
+  },
+  {
+    "code": "331",
+    "state": "Illinois",
+    "cities": ["Aurora", "Naperville"],
+    "timezone": "Central Time (CT)",
+    "year": 2007,
+    "related_codes": ["630"]
+  },
+  {
+    "code": "334",
+    "state": "Alabama",
+    "cities": ["Montgomery", "Auburn"],
+    "timezone": "Central Time (CT)",
+    "year": 1995,
+    "related_codes": []
+  },
+  {
+    "code": "336",
+    "state": "North Carolina",
+    "cities": ["Greensboro", "Winston-Salem"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1997,
+    "related_codes": []
+  },
+  {
+    "code": "337",
+    "state": "Louisiana",
+    "cities": ["Lafayette", "Lake Charles"],
+    "timezone": "Central Time (CT)",
+    "year": 1999,
+    "related_codes": []
+  },
+  {
+    "code": "339",
+    "state": "Massachusetts",
+    "cities": ["Boston"],
+    "timezone": "Eastern Time (ET)",
+    "year": 2001,
+    "related_codes": ["617", "857"]
+  },
+  {
+    "code": "346",
+    "state": "Texas",
+    "cities": ["Houston"],
+    "timezone": "Central Time (CT)",
+    "year": 2014,
+    "related_codes": ["713", "281"]
+  },
+  {
+    "code": "347",
+    "state": "New York",
+    "cities": ["Brooklyn", "Bronx", "Queens"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1999,
+    "related_codes": ["718"]
+  },
+  {
+    "code": "351",
+    "state": "Massachusetts",
+    "cities": ["Lowell", "Lawrence"],
+    "timezone": "Eastern Time (ET)",
+    "year": 2001,
+    "related_codes": ["978"]
+  },
+  {
+    "code": "352",
+    "state": "Florida",
+    "cities": ["Gainesville", "Ocala"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1995,
+    "related_codes": []
+  },
+  {
+    "code": "360",
+    "state": "Washington",
+    "cities": ["Vancouver", "Olympia"],
+    "timezone": "Pacific Time (PT)",
+    "year": 1995,
+    "related_codes": []
+  },
+  {
+    "code": "361",
+    "state": "Texas",
+    "cities": ["Corpus Christi"],
+    "timezone": "Central Time (CT)",
+    "year": 1999,
+    "related_codes": []
+  },
+  {
+    "code": "385",
+    "state": "Utah",
+    "cities": ["Salt Lake City", "Provo"],
+    "timezone": "Mountain Time (MT)",
+    "year": 2009,
+    "related_codes": ["801"]
+  },
+  {
+    "code": "386",
+    "state": "Florida",
+    "cities": ["Daytona Beach"],
+    "timezone": "Eastern Time (ET)",
+    "year": 2001,
+    "related_codes": []
+  },
+  {
+    "code": "401",
+    "state": "Rhode Island",
+    "cities": ["Providence", "Newport"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1947,
+    "related_codes": []
+  },
+  {
+    "code": "402",
+    "state": "Nebraska",
+    "cities": ["Omaha", "Lincoln"],
+    "timezone": "Central Time (CT)",
+    "year": 1947,
+    "related_codes": []
+  },
+  {
+    "code": "404",
+    "state": "Georgia",
+    "cities": ["Atlanta"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1947,
+    "related_codes": ["678", "470"]
+  },
+  {
+    "code": "405",
+    "state": "Oklahoma",
+    "cities": ["Oklahoma City"],
+    "timezone": "Central Time (CT)",
+    "year": 1953,
+    "related_codes": []
+  },
+  {
+    "code": "406",
+    "state": "Montana",
+    "cities": ["Billings", "Missoula"],
+    "timezone": "Mountain Time (MT)",
+    "year": 1947,
+    "related_codes": []
+  },
+  {
+    "code": "407",
+    "state": "Florida",
+    "cities": ["Orlando"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1988,
+    "related_codes": ["321"]
+  },
+  {
+    "code": "408",
+    "state": "California",
+    "cities": ["San Jose"],
+    "timezone": "Pacific Time (PT)",
+    "year": 1959,
+    "related_codes": ["669"]
+  },
+  {
+    "code": "409",
+    "state": "Texas",
+    "cities": ["Beaumont", "Galveston"],
+    "timezone": "Central Time (CT)",
+    "year": 1983,
+    "related_codes": []
+  },
+  {
+    "code": "410",
+    "state": "Maryland",
+    "cities": ["Baltimore"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1991,
+    "related_codes": ["443"]
+  },
+  {
+    "code": "412",
+    "state": "Pennsylvania",
+    "cities": ["Pittsburgh"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1947,
+    "related_codes": []
+  },
+  {
+    "code": "413",
+    "state": "Massachusetts",
+    "cities": ["Springfield"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1947,
+    "related_codes": []
+  },
+  {
+    "code": "414",
+    "state": "Wisconsin",
+    "cities": ["Milwaukee"],
+    "timezone": "Central Time (CT)",
+    "year": 1947,
+    "related_codes": []
+  },
+  {
+    "code": "415",
+    "state": "California",
+    "cities": ["San Francisco"],
+    "timezone": "Pacific Time (PT)",
+    "year": 1947,
+    "related_codes": ["628"]
+  },
+  {
+    "code": "417",
+    "state": "Missouri",
+    "cities": ["Springfield", "Joplin"],
+    "timezone": "Central Time (CT)",
+    "year": 1950,
+    "related_codes": []
+  },
+  {
+    "code": "419",
+    "state": "Ohio",
+    "cities": ["Toledo"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1947,
+    "related_codes": ["567"]
+  },
+  {
+    "code": "423",
+    "state": "Tennessee",
+    "cities": ["Chattanooga", "Knoxville"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1995,
+    "related_codes": []
+  },
+  {
+    "code": "424",
+    "state": "California",
+    "cities": ["Los Angeles"],
+    "timezone": "Pacific Time (PT)",
+    "year": 2006,
+    "related_codes": ["310", "213"]
+  },
+  {
+    "code": "425",
+    "state": "Washington",
+    "cities": ["Bellevue", "Everett"],
+    "timezone": "Pacific Time (PT)",
+    "year": 1997,
+    "related_codes": ["206"]
+  },
+  {
+    "code": "430",
+    "state": "Texas",
+    "cities": ["Tyler", "Longview"],
+    "timezone": "Central Time (CT)",
+    "year": 2003,
+    "related_codes": ["903"]
+  },
+  {
+    "code": "432",
+    "state": "Texas",
+    "cities": ["Midland", "Odessa"],
+    "timezone": "Central Time (CT)",
+    "year": 2003,
+    "related_codes": []
+  },
+  {
+    "code": "434",
+    "state": "Virginia",
+    "cities": ["Lynchburg", "Charlottesville"],
+    "timezone": "Eastern Time (ET)",
+    "year": 2001,
+    "related_codes": []
+  },
+  {
+    "code": "435",
+    "state": "Utah",
+    "cities": ["St. George", "Logan"],
+    "timezone": "Mountain Time (MT)",
+    "year": 1997,
+    "related_codes": []
+  },
+  {
+    "code": "440",
+    "state": "Ohio",
+    "cities": ["Parma", "Elyria"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1997,
+    "related_codes": ["216"]
+  },
+  {
+    "code": "442",
+    "state": "California",
+    "cities": ["Oceanside", "Escondido"],
+    "timezone": "Pacific Time (PT)",
+    "year": 2009,
+    "related_codes": ["760"]
+  },
+  {
+    "code": "443",
+    "state": "Maryland",
+    "cities": ["Baltimore"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1997,
+    "related_codes": ["410"]
+  },
+  {
+    "code": "458",
+    "state": "Oregon",
+    "cities": ["Eugene"],
+    "timezone": "Pacific Time (PT)",
+    "year": 2010,
+    "related_codes": ["541"]
+  },
+  {
+    "code": "469",
+    "state": "Texas",
+    "cities": ["Dallas"],
+    "timezone": "Central Time (CT)",
+    "year": 1999,
+    "related_codes": ["214", "972"]
+  },
+  {
+    "code": "470",
+    "state": "Georgia",
+    "cities": ["Atlanta"],
+    "timezone": "Eastern Time (ET)",
+    "year": 2010,
+    "related_codes": ["404", "678"]
+  },
+  {
+    "code": "475",
+    "state": "Connecticut",
+    "cities": ["Bridgeport", "New Haven"],
+    "timezone": "Eastern Time (ET)",
+    "year": 2009,
+    "related_codes": ["203"]
+  },
+  {
+    "code": "478",
+    "state": "Georgia",
+    "cities": ["Macon"],
+    "timezone": "Eastern Time (ET)",
+    "year": 2000,
+    "related_codes": []
+  },
+  {
+    "code": "479",
+    "state": "Arkansas",
+    "cities": ["Fort Smith", "Fayetteville"],
+    "timezone": "Central Time (CT)",
+    "year": 2002,
+    "related_codes": []
+  },
+  {
+    "code": "480",
+    "state": "Arizona",
+    "cities": ["Mesa", "Scottsdale", "Tempe"],
+    "timezone": "Mountain Time (MT)",
+    "year": 1999,
+    "related_codes": ["602"]
+  },
+  {
+    "code": "484",
+    "state": "Pennsylvania",
+    "cities": ["Allentown", "Reading"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1999,
+    "related_codes": ["610"]
+  },
+  {
+    "code": "501",
+    "state": "Arkansas",
+    "cities": ["Little Rock"],
+    "timezone": "Central Time (CT)",
+    "year": 1947,
+    "related_codes": []
+  },
+  {
+    "code": "502",
+    "state": "Kentucky",
+    "cities": ["Louisville"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1947,
+    "related_codes": []
+  },
+  {
+    "code": "503",
+    "state": "Oregon",
+    "cities": ["Portland", "Salem"],
+    "timezone": "Pacific Time (PT)",
+    "year": 1947,
+    "related_codes": ["971"]
+  },
+  {
+    "code": "504",
+    "state": "Louisiana",
+    "cities": ["New Orleans"],
+    "timezone": "Central Time (CT)",
+    "year": 1947,
+    "related_codes": []
+  },
+  {
+    "code": "505",
+    "state": "New Mexico",
+    "cities": ["Albuquerque", "Santa Fe"],
+    "timezone": "Mountain Time (MT)",
+    "year": 1947,
+    "related_codes": []
+  },
+  {
+    "code": "507",
+    "state": "Minnesota",
+    "cities": ["Rochester", "Mankato"],
+    "timezone": "Central Time (CT)",
+    "year": 1954,
+    "related_codes": []
+  },
+  {
+    "code": "508",
+    "state": "Massachusetts",
+    "cities": ["Worcester", "Cape Cod"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1988,
+    "related_codes": []
+  },
+  {
+    "code": "509",
+    "state": "Washington",
+    "cities": ["Spokane"],
+    "timezone": "Pacific Time (PT)",
+    "year": 1957,
+    "related_codes": []
+  },
+  {
+    "code": "510",
+    "state": "California",
+    "cities": ["Oakland", "Fremont"],
+    "timezone": "Pacific Time (PT)",
+    "year": 1991,
+    "related_codes": []
+  },
+  {
+    "code": "512",
+    "state": "Texas",
+    "cities": ["Austin"],
+    "timezone": "Central Time (CT)",
+    "year": 1947,
+    "related_codes": ["737"]
+  },
+  {
+    "code": "513",
+    "state": "Ohio",
+    "cities": ["Cincinnati"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1947,
+    "related_codes": []
+  },
+  {
+    "code": "515",
+    "state": "Iowa",
+    "cities": ["Des Moines"],
+    "timezone": "Central Time (CT)",
+    "year": 1947,
+    "related_codes": []
+  },
+  {
+    "code": "516",
+    "state": "New York",
+    "cities": ["Hempstead", "Long Island"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1951,
+    "related_codes": []
+  },
+  {
+    "code": "517",
+    "state": "Michigan",
+    "cities": ["Lansing"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1947,
+    "related_codes": []
+  },
+  {
+    "code": "518",
+    "state": "New York",
+    "cities": ["Albany"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1947,
+    "related_codes": []
+  },
+  {
+    "code": "520",
+    "state": "Arizona",
+    "cities": ["Tucson"],
+    "timezone": "Mountain Time (MT)",
+    "year": 1995,
+    "related_codes": []
+  },
+  {
+    "code": "530",
+    "state": "California",
+    "cities": ["Chico", "Redding"],
+    "timezone": "Pacific Time (PT)",
+    "year": 1998,
+    "related_codes": []
+  },
+  {
+    "code": "540",
+    "state": "Virginia",
+    "cities": ["Roanoke", "Fredericksburg"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1995,
+    "related_codes": []
+  },
+  {
+    "code": "541",
+    "state": "Oregon",
+    "cities": ["Eugene", "Medford"],
+    "timezone": "Pacific Time (PT)",
+    "year": 1995,
+    "related_codes": ["458"]
+  },
+  {
+    "code": "551",
+    "state": "New Jersey",
+    "cities": ["Jersey City", "Hoboken"],
+    "timezone": "Eastern Time (ET)",
+    "year": 2001,
+    "related_codes": ["201"]
+  },
+  {
+    "code": "559",
+    "state": "California",
+    "cities": ["Fresno"],
+    "timezone": "Pacific Time (PT)",
+    "year": 1998,
+    "related_codes": []
+  },
+  {
+    "code": "562",
+    "state": "California",
+    "cities": ["Long Beach"],
+    "timezone": "Pacific Time (PT)",
+    "year": 1997,
+    "related_codes": []
+  },
+  {
+    "code": "563",
+    "state": "Iowa",
+    "cities": ["Davenport"],
+    "timezone": "Central Time (CT)",
+    "year": 2001,
+    "related_codes": []
+  },
+  {
+    "code": "567",
+    "state": "Ohio",
+    "cities": ["Toledo"],
+    "timezone": "Eastern Time (ET)",
+    "year": 2002,
+    "related_codes": ["419"]
+  },
+  {
+    "code": "570",
+    "state": "Pennsylvania",
+    "cities": ["Scranton", "Wilkes-Barre"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1998,
+    "related_codes": ["272"]
+  },
+  {
+    "code": "571",
+    "state": "Virginia",
+    "cities": ["Arlington", "Alexandria"],
+    "timezone": "Eastern Time (ET)",
+    "year": 2000,
+    "related_codes": ["703"]
+  },
+  {
+    "code": "573",
+    "state": "Missouri",
+    "cities": ["Columbia", "Cape Girardeau"],
+    "timezone": "Central Time (CT)",
+    "year": 1996,
+    "related_codes": []
+  },
+  {
+    "code": "574",
+    "state": "Indiana",
+    "cities": ["South Bend", "Elkhart"],
+    "timezone": "Eastern Time (ET)",
+    "year": 2002,
+    "related_codes": ["219"]
+  },
+  {
+    "code": "575",
+    "state": "New Mexico",
+    "cities": ["Las Cruces"],
+    "timezone": "Mountain Time (MT)",
+    "year": 2007,
+    "related_codes": []
+  },
+  {
+    "code": "580",
+    "state": "Oklahoma",
+    "cities": ["Lawton"],
+    "timezone": "Central Time (CT)",
+    "year": 1997,
+    "related_codes": []
+  },
+  {
+    "code": "585",
+    "state": "New York",
+    "cities": ["Rochester"],
+    "timezone": "Eastern Time (ET)",
+    "year": 2001,
+    "related_codes": []
+  },
+  {
+    "code": "586",
+    "state": "Michigan",
+    "cities": ["Warren", "Sterling Heights"],
+    "timezone": "Eastern Time (ET)",
+    "year": 2001,
+    "related_codes": []
+  },
+  {
+    "code": "601",
+    "state": "Mississippi",
+    "cities": ["Jackson"],
+    "timezone": "Central Time (CT)",
+    "year": 1947,
+    "related_codes": []
+  },
+  {
+    "code": "602",
+    "state": "Arizona",
+    "cities": ["Phoenix"],
+    "timezone": "Mountain Time (MT)",
+    "year": 1947,
+    "related_codes": ["480", "623"]
+  },
+  {
+    "code": "603",
+    "state": "New Hampshire",
+    "cities": ["Manchester", "Nashua"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1947,
+    "related_codes": []
+  },
+  {
+    "code": "605",
+    "state": "South Dakota",
+    "cities": ["Sioux Falls", "Rapid City"],
+    "timezone": "Central Time (CT)",
+    "year": 1947,
+    "related_codes": []
+  },
+  {
+    "code": "606",
+    "state": "Kentucky",
+    "cities": ["Ashland"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1954,
+    "related_codes": []
+  },
+  {
+    "code": "607",
+    "state": "New York",
+    "cities": ["Binghamton", "Elmira"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1954,
+    "related_codes": []
+  },
+  {
+    "code": "608",
+    "state": "Wisconsin",
+    "cities": ["Madison"],
+    "timezone": "Central Time (CT)",
+    "year": 1955,
+    "related_codes": []
+  },
+  {
+    "code": "609",
+    "state": "New Jersey",
+    "cities": ["Trenton", "Atlantic City"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1958,
+    "related_codes": []
+  },
+  {
+    "code": "610",
+    "state": "Pennsylvania",
+    "cities": ["Allentown", "Reading"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1994,
+    "related_codes": ["484"]
+  },
+  {
+    "code": "612",
+    "state": "Minnesota",
+    "cities": ["Minneapolis"],
+    "timezone": "Central Time (CT)",
+    "year": 1947,
+    "related_codes": []
+  },
+  {
+    "code": "614",
+    "state": "Ohio",
+    "cities": ["Columbus"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1947,
+    "related_codes": []
+  },
+  {
+    "code": "615",
+    "state": "Tennessee",
+    "cities": ["Nashville"],
+    "timezone": "Central Time (CT)",
+    "year": 1954,
+    "related_codes": []
+  },
+  {
+    "code": "616",
+    "state": "Michigan",
+    "cities": ["Grand Rapids"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1947,
+    "related_codes": []
+  },
+  {
+    "code": "617",
+    "state": "Massachusetts",
+    "cities": ["Boston"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1947,
+    "related_codes": ["857"]
+  },
+  {
+    "code": "618",
+    "state": "Illinois",
+    "cities": ["East St. Louis"],
+    "timezone": "Central Time (CT)",
+    "year": 1947,
+    "related_codes": []
+  },
+  {
+    "code": "619",
+    "state": "California",
+    "cities": ["San Diego"],
+    "timezone": "Pacific Time (PT)",
+    "year": 1982,
+    "related_codes": ["858"]
+  },
+  {
+    "code": "620",
+    "state": "Kansas",
+    "cities": ["Hutchinson"],
+    "timezone": "Central Time (CT)",
+    "year": 2001,
+    "related_codes": []
+  },
+  {
+    "code": "623",
+    "state": "Arizona",
+    "cities": ["Glendale", "Peoria"],
+    "timezone": "Mountain Time (MT)",
+    "year": 1999,
+    "related_codes": ["602"]
+  },
+  {
+    "code": "626",
+    "state": "California",
+    "cities": ["Pasadena", "Arcadia"],
+    "timezone": "Pacific Time (PT)",
+    "year": 1997,
+    "related_codes": []
+  },
+  {
+    "code": "628",
+    "state": "California",
+    "cities": ["San Francisco"],
+    "timezone": "Pacific Time (PT)",
+    "year": 2015,
+    "related_codes": ["415"]
+  },
+  {
+    "code": "629",
+    "state": "Tennessee",
+    "cities": ["Nashville"],
+    "timezone": "Central Time (CT)",
+    "year": 2014,
+    "related_codes": ["615"]
+  },
+  {
+    "code": "630",
+    "state": "Illinois",
+    "cities": ["Aurora", "Naperville"],
+    "timezone": "Central Time (CT)",
+    "year": 1996,
+    "related_codes": ["331"]
+  },
+  {
+    "code": "631",
+    "state": "New York",
+    "cities": ["Suffolk County"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1999,
+    "related_codes": []
+  },
+  {
+    "code": "636",
+    "state": "Missouri",
+    "cities": ["O'Fallon"],
+    "timezone": "Central Time (CT)",
+    "year": 1999,
+    "related_codes": []
+  },
+  {
+    "code": "641",
+    "state": "Iowa",
+    "cities": ["Mason City"],
+    "timezone": "Central Time (CT)",
+    "year": 2000,
+    "related_codes": []
+  },
+  {
+    "code": "646",
+    "state": "New York",
+    "cities": ["Manhattan"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1999,
+    "related_codes": ["212"]
+  },
+  {
+    "code": "650",
+    "state": "California",
+    "cities": ["San Mateo", "Palo Alto"],
+    "timezone": "Pacific Time (PT)",
+    "year": 1997,
+    "related_codes": []
+  },
+  {
+    "code": "651",
+    "state": "Minnesota",
+    "cities": ["St. Paul"],
+    "timezone": "Central Time (CT)",
+    "year": 1998,
+    "related_codes": []
+  },
+  {
+    "code": "657",
+    "state": "California",
+    "cities": ["Anaheim"],
+    "timezone": "Pacific Time (PT)",
+    "year": 2008,
+    "related_codes": ["714"]
+  },
+  {
+    "code": "659",
+    "state": "Alabama",
+    "cities": ["Birmingham"],
+    "timezone": "Central Time (CT)",
+    "year": 2019,
+    "related_codes": ["205"]
+  },
+  {
+    "code": "660",
+    "state": "Missouri",
+    "cities": ["Sedalia"],
+    "timezone": "Central Time (CT)",
+    "year": 1997,
+    "related_codes": []
+  },
+  {
+    "code": "661",
+    "state": "California",
+    "cities": ["Bakersfield"],
+    "timezone": "Pacific Time (PT)",
+    "year": 1999,
+    "related_codes": []
+  },
+  {
+    "code": "662",
+    "state": "Mississippi",
+    "cities": ["Tupelo", "Southaven"],
+    "timezone": "Central Time (CT)",
+    "year": 1999,
+    "related_codes": []
+  },
+  {
+    "code": "667",
+    "state": "Maryland",
+    "cities": ["Baltimore"],
+    "timezone": "Eastern Time (ET)",
+    "year": 2012,
+    "related_codes": ["410"]
+  },
+  {
+    "code": "669",
+    "state": "California",
+    "cities": ["San Jose"],
+    "timezone": "Pacific Time (PT)",
+    "year": 2012,
+    "related_codes": ["408"]
+  },
+  {
+    "code": "678",
+    "state": "Georgia",
+    "cities": ["Atlanta"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1998,
+    "related_codes": ["404"]
+  },
+  {
+    "code": "681",
+    "state": "West Virginia",
+    "cities": ["Charleston"],
+    "timezone": "Eastern Time (ET)",
+    "year": 2009,
+    "related_codes": ["304"]
+  },
+  {
+    "code": "682",
+    "state": "Texas",
+    "cities": ["Fort Worth"],
+    "timezone": "Central Time (CT)",
+    "year": 2000,
+    "related_codes": ["817"]
+  },
+  {
+    "code": "701",
+    "state": "North Dakota",
+    "cities": ["Fargo", "Bismarck"],
+    "timezone": "Central Time (CT)",
+    "year": 1947,
+    "related_codes": []
+  },
+  {
+    "code": "702",
+    "state": "Nevada",
+    "cities": ["Las Vegas"],
+    "timezone": "Pacific Time (PT)",
+    "year": 1947,
+    "related_codes": ["725"]
+  },
+  {
+    "code": "703",
+    "state": "Virginia",
+    "cities": ["Arlington", "Alexandria"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1947,
+    "related_codes": ["571"]
+  },
+  {
+    "code": "704",
+    "state": "North Carolina",
+    "cities": ["Charlotte"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1947,
+    "related_codes": ["980"]
+  },
+  {
+    "code": "706",
+    "state": "Georgia",
+    "cities": ["Augusta", "Columbus"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1992,
+    "related_codes": []
+  },
+  {
+    "code": "707",
+    "state": "California",
+    "cities": ["Santa Rosa", "Vallejo"],
+    "timezone": "Pacific Time (PT)",
+    "year": 1959,
+    "related_codes": []
+  },
+  {
+    "code": "708",
+    "state": "Illinois",
+    "cities": ["Cicero", "Oak Lawn"],
+    "timezone": "Central Time (CT)",
+    "year": 1989,
+    "related_codes": []
+  },
+  {
+    "code": "712",
+    "state": "Iowa",
+    "cities": ["Sioux City"],
+    "timezone": "Central Time (CT)",
+    "year": 1947,
+    "related_codes": []
+  },
+  {
+    "code": "713",
+    "state": "Texas",
+    "cities": ["Houston"],
+    "timezone": "Central Time (CT)",
+    "year": 1947,
+    "related_codes": ["281", "832"]
+  },
+  {
+    "code": "714",
+    "state": "California",
+    "cities": ["Anaheim", "Santa Ana"],
+    "timezone": "Pacific Time (PT)",
+    "year": 1951,
+    "related_codes": ["657"]
+  },
+  {
+    "code": "715",
+    "state": "Wisconsin",
+    "cities": ["Eau Claire", "Wausau"],
+    "timezone": "Central Time (CT)",
+    "year": 1947,
+    "related_codes": []
+  },
+  {
+    "code": "716",
+    "state": "New York",
+    "cities": ["Buffalo", "Niagara Falls"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1947,
+    "related_codes": []
+  },
+  {
+    "code": "717",
+    "state": "Pennsylvania",
+    "cities": ["Harrisburg", "York"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1947,
+    "related_codes": []
+  },
+  {
+    "code": "718",
+    "state": "New York",
+    "cities": ["Brooklyn", "Queens", "Bronx"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1984,
+    "related_codes": ["347"]
+  },
+  {
+    "code": "719",
+    "state": "Colorado",
+    "cities": ["Colorado Springs"],
+    "timezone": "Mountain Time (MT)",
+    "year": 1988,
+    "related_codes": []
+  },
+  {
+    "code": "720",
+    "state": "Colorado",
+    "cities": ["Denver"],
+    "timezone": "Mountain Time (MT)",
+    "year": 1998,
+    "related_codes": ["303"]
+  },
+  {
+    "code": "724",
+    "state": "Pennsylvania",
+    "cities": ["New Castle"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1998,
+    "related_codes": []
+  },
+  {
+    "code": "725",
+    "state": "Nevada",
+    "cities": ["Las Vegas"],
+    "timezone": "Pacific Time (PT)",
+    "year": 2014,
+    "related_codes": ["702"]
+  },
+  {
+    "code": "727",
+    "state": "Florida",
+    "cities": ["St. Petersburg", "Clearwater"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1998,
+    "related_codes": []
+  },
+  {
+    "code": "731",
+    "state": "Tennessee",
+    "cities": ["Jackson"],
+    "timezone": "Central Time (CT)",
+    "year": 2001,
+    "related_codes": []
+  },
+  {
+    "code": "732",
+    "state": "New Jersey",
+    "cities": ["Edison", "Lakewood"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1997,
+    "related_codes": []
+  },
+  {
+    "code": "734",
+    "state": "Michigan",
+    "cities": ["Ann Arbor"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1997,
+    "related_codes": []
+  },
+  {
+    "code": "737",
+    "state": "Texas",
+    "cities": ["Austin"],
+    "timezone": "Central Time (CT)",
+    "year": 2013,
+    "related_codes": ["512"]
+  },
+  {
+    "code": "740",
+    "state": "Ohio",
+    "cities": ["Zanesville"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1997,
+    "related_codes": []
+  },
+  {
+    "code": "747",
+    "state": "California",
+    "cities": ["Burbank", "Glendale"],
+    "timezone": "Pacific Time (PT)",
+    "year": 2009,
+    "related_codes": ["818"]
+  },
+  {
+    "code": "754",
+    "state": "Florida",
+    "cities": ["Fort Lauderdale"],
+    "timezone": "Eastern Time (ET)",
+    "year": 2001,
+    "related_codes": ["954"]
+  },
+  {
+    "code": "757",
+    "state": "Virginia",
+    "cities": ["Virginia Beach", "Norfolk"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1996,
+    "related_codes": []
+  },
+  {
+    "code": "760",
+    "state": "California",
+    "cities": ["Oceanside", "Palm Springs"],
+    "timezone": "Pacific Time (PT)",
+    "year": 1997,
+    "related_codes": ["442"]
+  },
+  {
+    "code": "762",
+    "state": "Georgia",
+    "cities": ["Augusta"],
+    "timezone": "Eastern Time (ET)",
+    "year": 2010,
+    "related_codes": ["706"]
+  },
+  {
+    "code": "763",
+    "state": "Minnesota",
+    "cities": ["Brooklyn Park"],
+    "timezone": "Central Time (CT)",
+    "year": 2000,
+    "related_codes": []
+  },
+  {
+    "code": "765",
+    "state": "Indiana",
+    "cities": ["Muncie", "Lafayette"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1997,
+    "related_codes": []
+  },
+  {
+    "code": "769",
+    "state": "Mississippi",
+    "cities": ["Jackson"],
+    "timezone": "Central Time (CT)",
+    "year": 2005,
+    "related_codes": ["601"]
+  },
+  {
+    "code": "770",
+    "state": "Georgia",
+    "cities": ["Marietta", "Roswell"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1995,
+    "related_codes": []
+  },
+  {
+    "code": "772",
+    "state": "Florida",
+    "cities": ["Port St. Lucie"],
+    "timezone": "Eastern Time (ET)",
+    "year": 2002,
+    "related_codes": []
+  },
+  {
+    "code": "773",
+    "state": "Illinois",
+    "cities": ["Chicago"],
+    "timezone": "Central Time (CT)",
+    "year": 1996,
+    "related_codes": ["312"]
+  },
+  {
+    "code": "774",
+    "state": "Massachusetts",
+    "cities": ["Worcester"],
+    "timezone": "Eastern Time (ET)",
+    "year": 2001,
+    "related_codes": ["508"]
+  },
+  {
+    "code": "775",
+    "state": "Nevada",
+    "cities": ["Reno"],
+    "timezone": "Pacific Time (PT)",
+    "year": 1998,
+    "related_codes": []
+  },
+  {
+    "code": "779",
+    "state": "Illinois",
+    "cities": ["Rockford"],
+    "timezone": "Central Time (CT)",
+    "year": 2007,
+    "related_codes": ["815"]
+  },
+  {
+    "code": "781",
+    "state": "Massachusetts",
+    "cities": ["Waltham", "Lynn"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1997,
+    "related_codes": []
+  },
+  {
+    "code": "785",
+    "state": "Kansas",
+    "cities": ["Topeka"],
+    "timezone": "Central Time (CT)",
+    "year": 1997,
+    "related_codes": []
+  },
+  {
+    "code": "786",
+    "state": "Florida",
+    "cities": ["Miami"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1998,
+    "related_codes": ["305"]
+  },
+  {
+    "code": "801",
+    "state": "Utah",
+    "cities": ["Salt Lake City"],
+    "timezone": "Mountain Time (MT)",
+    "year": 1947,
+    "related_codes": ["385"]
+  },
+  {
+    "code": "802",
+    "state": "Vermont",
+    "cities": ["Burlington"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1947,
+    "related_codes": []
+  },
+  {
+    "code": "803",
+    "state": "South Carolina",
+    "cities": ["Columbia"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1947,
+    "related_codes": []
+  },
+  {
+    "code": "804",
+    "state": "Virginia",
+    "cities": ["Richmond"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1973,
+    "related_codes": []
+  },
+  {
+    "code": "805",
+    "state": "California",
+    "cities": ["Oxnard", "Santa Barbara"],
+    "timezone": "Pacific Time (PT)",
+    "year": 1957,
+    "related_codes": []
+  },
+  {
+    "code": "806",
+    "state": "Texas",
+    "cities": ["Lubbock", "Amarillo"],
+    "timezone": "Central Time (CT)",
+    "year": 1957,
+    "related_codes": []
+  },
+  {
+    "code": "808",
+    "state": "Hawaii",
+    "cities": ["Honolulu"],
+    "timezone": "Hawaii Time (HT)",
+    "year": 1957,
+    "related_codes": []
+  },
+  {
+    "code": "810",
+    "state": "Michigan",
+    "cities": ["Flint"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1993,
+    "related_codes": []
+  },
+  {
+    "code": "812",
+    "state": "Indiana",
+    "cities": ["Evansville", "Bloomington"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1947,
+    "related_codes": []
+  },
+  {
+    "code": "813",
+    "state": "Florida",
+    "cities": ["Tampa"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1953,
+    "related_codes": []
+  },
+  {
+    "code": "814",
+    "state": "Pennsylvania",
+    "cities": ["Erie"],
+    "timezone": "Eastern Time (ET)",
+    "year": 1947,
+    "related_codes": []
+  },
+  {
+    "code": "815",
+    "state": "Illinois",
+    "cities": ["Rockford", "Joliet"],
+    "timezone": "Central Time (CT)",
+    "year": 1947,
+    "related_codes": ["779"]
+  },
+  {
+      "code": "816",
+      "state": "Missouri",
+      "cities": ["Kansas City"],
+      "timezone": "Central Time (CT)",
+      "year": 1947,
+      "related_codes": []
+    },
+    {
+      "code": "817",
+      "state": "Texas",
+      "cities": ["Fort Worth", "Arlington"],
+      "timezone": "Central Time (CT)",
+      "year": 1953,
+      "related_codes": ["682"]
+    },
+    {
+      "code": "818",
+      "state": "California",
+      "cities": ["Burbank", "Glendale"],
+      "timezone": "Pacific Time (PT)",
+      "year": 1984,
+      "related_codes": ["747"]
+    },
+    {
+      "code": "828",
+      "state": "North Carolina",
+      "cities": ["Asheville"],
+      "timezone": "Eastern Time (ET)",
+      "year": 1998,
+      "related_codes": []
+    },
+    {
+      "code": "830",
+      "state": "Texas",
+      "cities": ["New Braunfels"],
+      "timezone": "Central Time (CT)",
+      "year": 1997,
+      "related_codes": []
+    },
+    {
+      "code": "831",
+      "state": "California",
+      "cities": ["Salinas", "Monterey"],
+      "timezone": "Pacific Time (PT)",
+      "year": 1998,
+      "related_codes": []
+    },
+    {
+      "code": "832",
+      "state": "Texas",
+      "cities": ["Houston"],
+      "timezone": "Central Time (CT)",
+      "year": 1999,
+      "related_codes": ["713", "281"]
+    },
+    {
+      "code": "843",
+      "state": "South Carolina",
+      "cities": ["Charleston", "Myrtle Beach"],
+      "timezone": "Eastern Time (ET)",
+      "year": 1998,
+      "related_codes": []
+    },
+    {
+      "code": "845",
+      "state": "New York",
+      "cities": ["Poughkeepsie"],
+      "timezone": "Eastern Time (ET)",
+      "year": 2000,
+      "related_codes": []
+    },
+    {
+      "code": "847",
+      "state": "Illinois",
+      "cities": ["Elgin", "Schaumburg"],
+      "timezone": "Central Time (CT)",
+      "year": 1996,
+      "related_codes": ["224"]
+    },
+    {
+      "code": "848",
+      "state": "New Jersey",
+      "cities": ["New Brunswick"],
+      "timezone": "Eastern Time (ET)",
+      "year": 2001,
+      "related_codes": ["732"]
+    },
+    {
+      "code": "850",
+      "state": "Florida",
+      "cities": ["Tallahassee", "Pensacola"],
+      "timezone": "Central Time (CT)",
+      "year": 1997,
+      "related_codes": []
+    },
+    {
+      "code": "854",
+      "state": "South Carolina",
+      "cities": ["Charleston"],
+      "timezone": "Eastern Time (ET)",
+      "year": 2015,
+      "related_codes": ["843"]
+    },
+    {
+      "code": "856",
+      "state": "New Jersey",
+      "cities": ["Camden", "Cherry Hill"],
+      "timezone": "Eastern Time (ET)",
+      "year": 1999,
+      "related_codes": []
+    },
+    {
+      "code": "857",
+      "state": "Massachusetts",
+      "cities": ["Boston"],
+      "timezone": "Eastern Time (ET)",
+      "year": 2001,
+      "related_codes": ["617"]
+    },
+    {
+      "code": "858",
+      "state": "California",
+      "cities": ["San Diego"],
+      "timezone": "Pacific Time (PT)",
+      "year": 1999,
+      "related_codes": ["619"]
+    },
+    {
+      "code": "859",
+      "state": "Kentucky",
+      "cities": ["Lexington"],
+      "timezone": "Eastern Time (ET)",
+      "year": 1999,
+      "related_codes": []
+    },
+    {
+      "code": "860",
+      "state": "Connecticut",
+      "cities": ["Hartford"],
+      "timezone": "Eastern Time (ET)",
+      "year": 1995,
+      "related_codes": []
+    },
+    {
+      "code": "862",
+      "state": "New Jersey",
+      "cities": ["Newark", "Paterson"],
+      "timezone": "Eastern Time (ET)",
+      "year": 2001,
+      "related_codes": ["973"]
+    },
+    {
+      "code": "863",
+      "state": "Florida",
+      "cities": ["Lakeland"],
+      "timezone": "Eastern Time (ET)",
+      "year": 1999,
+      "related_codes": []
+    },
+    {
+      "code": "864",
+      "state": "South Carolina",
+      "cities": ["Greenville", "Spartanburg"],
+      "timezone": "Eastern Time (ET)",
+      "year": 1995,
+      "related_codes": []
+    },
+    {
+      "code": "865",
+      "state": "Tennessee",
+      "cities": ["Knoxville"],
+      "timezone": "Eastern Time (ET)",
+      "year": 1999,
+      "related_codes": []
+    },
+    {
+      "code": "870",
+      "state": "Arkansas",
+      "cities": ["Jonesboro"],
+      "timezone": "Central Time (CT)",
+      "year": 1997,
+      "related_codes": []
+    },
+    {
+      "code": "872",
+      "state": "Illinois",
+      "cities": ["Chicago"],
+      "timezone": "Central Time (CT)",
+      "year": 2009,
+      "related_codes": ["312"]
+    },
+    {
+      "code": "878",
+      "state": "Pennsylvania",
+      "cities": ["Pittsburgh"],
+      "timezone": "Eastern Time (ET)",
+      "year": 2001,
+      "related_codes": ["412"]
+    },
+    {
+      "code": "901",
+      "state": "Tennessee",
+      "cities": ["Memphis"],
+      "timezone": "Central Time (CT)",
+      "year": 1947,
+      "related_codes": []
+    },
+    {
+      "code": "903",
+      "state": "Texas",
+      "cities": ["Tyler", "Texarkana"],
+      "timezone": "Central Time (CT)",
+      "year": 1990,
+      "related_codes": ["430"]
+    },
+    {
+      "code": "904",
+      "state": "Florida",
+      "cities": ["Jacksonville"],
+      "timezone": "Eastern Time (ET)",
+      "year": 1965,
+      "related_codes": []
+    },
+    {
+      "code": "906",
+      "state": "Michigan",
+      "cities": ["Marquette", "Sault Ste. Marie"],
+      "timezone": "Eastern Time (ET)",
+      "year": 1961,
+      "related_codes": []
+    },
+    {
+      "code": "907",
+      "state": "Alaska",
+      "cities": ["Anchorage", "Fairbanks"],
+      "timezone": "Alaska Time (AKT)",
+      "year": 1957,
+      "related_codes": []
+    },
+    {
+      "code": "908",
+      "state": "New Jersey",
+      "cities": ["Elizabeth", "Union"],
+      "timezone": "Eastern Time (ET)",
+      "year": 1991,
+      "related_codes": []
+    },
+    {
+      "code": "909",
+      "state": "California",
+      "cities": ["San Bernardino", "Riverside"],
+      "timezone": "Pacific Time (PT)",
+      "year": 1992,
+      "related_codes": ["951"]
+    },
+    {
+      "code": "910",
+      "state": "North Carolina",
+      "cities": ["Fayetteville", "Wilmington"],
+      "timezone": "Eastern Time (ET)",
+      "year": 1993,
+      "related_codes": []
+    },
+    {
+      "code": "912",
+      "state": "Georgia",
+      "cities": ["Savannah"],
+      "timezone": "Eastern Time (ET)",
+      "year": 1954,
+      "related_codes": []
+    },
+    {
+      "code": "913",
+      "state": "Kansas",
+      "cities": ["Kansas City", "Overland Park"],
+      "timezone": "Central Time (CT)",
+      "year": 1997,
+      "related_codes": []
+    },
+    {
+      "code": "914",
+      "state": "New York",
+      "cities": ["Yonkers", "White Plains"],
+      "timezone": "Eastern Time (ET)",
+      "year": 1947,
+      "related_codes": []
+    },
+    {
+      "code": "915",
+      "state": "Texas",
+      "cities": ["El Paso"],
+      "timezone": "Mountain Time (MT)",
+      "year": 1947,
+      "related_codes": []
+    },
+    {
+      "code": "916",
+      "state": "California",
+      "cities": ["Sacramento"],
+      "timezone": "Pacific Time (PT)",
+      "year": 1947,
+      "related_codes": []
+    },
+    {
+      "code": "917",
+      "state": "New York",
+      "cities": ["New York City"],
+      "timezone": "Eastern Time (ET)",
+      "year": 1992,
+      "related_codes": ["212"]
+    },
+    {
+      "code": "918",
+      "state": "Oklahoma",
+      "cities": ["Tulsa"],
+      "timezone": "Central Time (CT)",
+      "year": 1953,
+      "related_codes": []
+    },
+    {
+      "code": "919",
+      "state": "North Carolina",
+      "cities": ["Raleigh", "Durham"],
+      "timezone": "Eastern Time (ET)",
+      "year": 1954,
+      "related_codes": []
+    },
+    {
+      "code": "920",
+      "state": "Wisconsin",
+      "cities": ["Green Bay", "Appleton"],
+      "timezone": "Central Time (CT)",
+      "year": 1997,
+      "related_codes": []
+    },
+    {
+      "code": "925",
+      "state": "California",
+      "cities": ["Concord", "Antioch"],
+      "timezone": "Pacific Time (PT)",
+      "year": 1998,
+      "related_codes": []
+    },
+    {
+      "code": "928",
+      "state": "Arizona",
+      "cities": ["Yuma", "Flagstaff"],
+      "timezone": "Mountain Time (MT)",
+      "year": 2001,
+      "related_codes": []
+    },
+    {
+      "code": "929",
+      "state": "New York",
+      "cities": ["Queens", "Brooklyn"],
+      "timezone": "Eastern Time (ET)",
+      "year": 2011,
+      "related_codes": ["718"]
+    },
+    {
+      "code": "931",
+      "state": "Tennessee",
+      "cities": ["Clarksville"],
+      "timezone": "Central Time (CT)",
+      "year": 1997,
+      "related_codes": []
+    },
+    {
+      "code": "936",
+      "state": "Texas",
+      "cities": ["Conroe", "Huntsville"],
+      "timezone": "Central Time (CT)",
+      "year": 2000,
+      "related_codes": []
+    },
+    {
+      "code": "937",
+      "state": "Ohio",
+      "cities": ["Dayton", "Springfield"],
+      "timezone": "Eastern Time (ET)",
+      "year": 1996,
+      "related_codes": []
+    },
+    {
+      "code": "940",
+      "state": "Texas",
+      "cities": ["Denton", "Wichita Falls"],
+      "timezone": "Central Time (CT)",
+      "year": 1997,
+      "related_codes": []
+    },
+    {
+      "code": "941",
+      "state": "Florida",
+      "cities": ["Sarasota", "Bradenton"],
+      "timezone": "Eastern Time (ET)",
+      "year": 1996,
+      "related_codes": []
+    },
+    {
+      "code": "947",
+      "state": "Michigan",
+      "cities": ["Troy", "Pontiac"],
+      "timezone": "Eastern Time (ET)",
+      "year": 2011,
+      "related_codes": ["248"]
+    },
+    {
+      "code": "949",
+      "state": "California",
+      "cities": ["Irvine", "Newport Beach"],
+      "timezone": "Pacific Time (PT)",
+      "year": 1998,
+      "related_codes": []
+    },
+    {
+      "code": "951",
+      "state": "California",
+      "cities": ["Riverside", "Corona"],
+      "timezone": "Pacific Time (PT)",
+      "year": 2004,
+      "related_codes": ["909"]
+    },
+    {
+      "code": "952",
+      "state": "Minnesota",
+      "cities": ["Bloomington"],
+      "timezone": "Central Time (CT)",
+      "year": 2000,
+      "related_codes": []
+    },
+    {
+      "code": "954",
+      "state": "Florida",
+      "cities": ["Fort Lauderdale"],
+      "timezone": "Eastern Time (ET)",
+      "year": 1995,
+      "related_codes": ["754"]
+    },
+    {
+      "code": "956",
+      "state": "Texas",
+      "cities": ["Laredo", "McAllen"],
+      "timezone": "Central Time (CT)",
+      "year": 1997,
+      "related_codes": []
+    },
+    {
+      "code": "959",
+      "state": "Connecticut",
+      "cities": ["Hartford"],
+      "timezone": "Eastern Time (ET)",
+      "year": 2014,
+      "related_codes": ["860"]
+    },
+    {
+      "code": "970",
+      "state": "Colorado",
+      "cities": ["Fort Collins", "Grand Junction"],
+      "timezone": "Mountain Time (MT)",
+      "year": 1995,
+      "related_codes": []
+    },
+    {
+      "code": "971",
+      "state": "Oregon",
+      "cities": ["Portland"],
+      "timezone": "Pacific Time (PT)",
+      "year": 2000,
+      "related_codes": ["503"]
+    },
+    {
+      "code": "972",
+      "state": "Texas",
+      "cities": ["Dallas", "Plano"],
+      "timezone": "Central Time (CT)",
+      "year": 1996,
+      "related_codes": ["214"]
+    },
+    {
+      "code": "973",
+      "state": "New Jersey",
+      "cities": ["Newark", "Paterson"],
+      "timezone": "Eastern Time (ET)",
+      "year": 1997,
+      "related_codes": ["862"]
+    },
+    {
+      "code": "978",
+      "state": "Massachusetts",
+      "cities": ["Lowell", "Lawrence"],
+      "timezone": "Eastern Time (ET)",
+      "year": 1997,
+      "related_codes": ["351"]
+    },
+    {
+      "code": "979",
+      "state": "Texas",
+      "cities": ["College Station", "Bryan"],
+      "timezone": "Central Time (CT)",
+      "year": 2000,
+      "related_codes": []
+    },
+    {
+      "code": "980",
+      "state": "North Carolina",
+      "cities": ["Charlotte"],
+      "timezone": "Eastern Time (ET)",
+      "year": 2000,
+      "related_codes": ["704"]
+    },
+    {
+      "code": "984",
+      "state": "North Carolina",
+      "cities": ["Raleigh"],
+      "timezone": "Eastern Time (ET)",
+      "year": 2012,
+      "related_codes": ["919"]
+    },
+    {
+      "code": "985",
+      "state": "Louisiana",
+      "cities": ["Houma", "Slidell"],
+      "timezone": "Central Time (CT)",
+      "year": 2001,
+      "related_codes": []
+    },
+    {
+      "code": "986",
+      "state": "Idaho",
+      "cities": ["Boise"],
+      "timezone": "Mountain Time (MT)",
+      "year": 2017,
+      "related_codes": ["208"]
+    },
+    {
+      "code": "989",
+      "state": "Michigan",
+      "cities": ["Saginaw", "Midland"],
+      "timezone": "Eastern Time (ET)",
+      "year": 2001,
+      "related_codes": []
+    }
+  ]
