@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useRef, useState } from "react"
+import { useEffect, useRef, useState, memo } from "react"
 
 // State coordinates
 const stateCoordinates = {
@@ -164,19 +164,49 @@ const areaCodeCoordinates = {
   985: [29.9511, -90.2579], 989: [43.4195, -83.9508],
 }
 
-export default function AreaCodeMap({ codes, state, zoom = 6, areaCode }) {
+function AreaCodeMap({ codes, state, zoom = 6, areaCode }) {
   const mapRef = useRef(null)
   const mapInstanceRef = useRef(null)
   const markersRef = useRef([])
   const [isLoading, setIsLoading] = useState(true)
+  const [isVisible, setIsVisible] = useState(false)
+  const [hasError, setHasError] = useState(false)
 
+  // Intersection Observer for lazy loading
   useEffect(() => {
-    if (typeof window === "undefined") return
+    if (!mapRef.current) return
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true)
+          observer.disconnect()
+        }
+      },
+      { rootMargin: '200px', threshold: 0.01 }
+    )
+
+    observer.observe(mapRef.current)
+    return () => observer.disconnect()
+  }, [])
+
+  // Initialize map only when visible
+  useEffect(() => {
+    if (typeof window === "undefined" || !isVisible) return
 
     const initMap = async () => {
       try {
         const L = (await import("leaflet")).default
-        await import("leaflet/dist/leaflet.css")
+        
+        // Load CSS if not already loaded
+        if (!document.querySelector('link[href*="leaflet.css"]')) {
+          const link = document.createElement('link')
+          link.rel = 'stylesheet'
+          link.href = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css'
+          link.crossOrigin = 'anonymous'
+          document.head.appendChild(link)
+          await new Promise(resolve => setTimeout(resolve, 100))
+        }
 
         let center = [39.8283, -98.5795]
         let mapZoom = 4
@@ -197,6 +227,7 @@ export default function AreaCodeMap({ codes, state, zoom = 6, areaCode }) {
           }
         }
 
+        // Cleanup existing map
         if (mapInstanceRef.current) {
           mapInstanceRef.current.remove()
           mapInstanceRef.current = null
@@ -204,14 +235,21 @@ export default function AreaCodeMap({ codes, state, zoom = 6, areaCode }) {
         markersRef.current = []
 
         if (mapRef.current) {
-          const map = L.map(mapRef.current).setView(center, mapZoom)
+          const map = L.map(mapRef.current, {
+            scrollWheelZoom: false,
+            preferCanvas: true, // Better performance
+          }).setView(center, mapZoom)
+          
           mapInstanceRef.current = map
 
+          // Use lightweight CARTO tiles
           L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png", {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/">CARTO</a>',
+            attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> © <a href="https://carto.com/">CARTO</a>',
             maxZoom: 19,
+            crossOrigin: 'anonymous',
           }).addTo(map)
 
+          // Create marker icon
           const createIcon = (code) => L.divIcon({
             className: 'area-marker',
             html: `<div style="
@@ -228,6 +266,7 @@ export default function AreaCodeMap({ codes, state, zoom = 6, areaCode }) {
             popupAnchor: [0, -21]
           })
 
+          // Add markers
           if (codes && codes.length > 0) {
             codes.forEach((code) => {
               const coords = areaCodeCoordinates[code.code]
@@ -256,29 +295,71 @@ export default function AreaCodeMap({ codes, state, zoom = 6, areaCode }) {
         }
       } catch (err) {
         console.error("Map error:", err)
+        setHasError(true)
         setIsLoading(false)
       }
     }
 
     initMap()
+    
     return () => {
       if (mapInstanceRef.current) {
         mapInstanceRef.current.remove()
         mapInstanceRef.current = null
       }
     }
-  }, [codes, state, zoom, areaCode])
+  }, [codes, state, zoom, areaCode, isVisible])
+
+  // Handle resize
+  useEffect(() => {
+    const handleResize = () => {
+      if (mapInstanceRef.current) {
+        mapInstanceRef.current.invalidateSize()
+      }
+    }
+    window.addEventListener('resize', handleResize)
+    return () => window.removeEventListener('resize', handleResize)
+  }, [])
 
   return (
     <div className="relative">
-      {isLoading && (
+      {/* Loading State */}
+      {isLoading && !hasError && (
         <div className="absolute inset-0 bg-gray-50 rounded-2xl flex items-center justify-center z-10">
-          <div className="w-10 h-10 border-4 border-blue-500 border-t-transparent rounded-full animate-spin"></div>
+          <div className="text-center">
+            <div className="w-10 h-10 border-4 border-blue-500 border-t-transparent rounded-full animate-spin mx-auto mb-3"></div>
+            <p className="text-gray-500 text-sm">Loading map...</p>
+          </div>
         </div>
       )}
-      <div ref={mapRef} style={{ width: "100%", height: "400px", borderRadius: "16px", border: "1px solid #e5e7eb" }} />
+      
+      {/* Error State */}
+      {hasError && (
+        <div className="absolute inset-0 bg-gray-100 rounded-2xl flex items-center justify-center z-10">
+          <div className="text-center p-6">
+            <svg className="w-12 h-12 text-gray-400 mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
+            </svg>
+            <p className="text-gray-500 text-sm">Map unavailable</p>
+          </div>
+        </div>
+      )}
+      
+      {/* Map Container - Fixed height prevents CLS */}
+      <div 
+        ref={mapRef} 
+        style={{ 
+          width: "100%", 
+          height: "400px", 
+          minHeight: "400px",
+          borderRadius: "16px", 
+          border: "1px solid #e5e7eb",
+          backgroundColor: '#f9fafb'
+        }} 
+      />
     </div>
   )
 }
 
+export default memo(AreaCodeMap)
 export { stateCoordinates, areaCodeCoordinates }

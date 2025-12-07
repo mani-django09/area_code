@@ -128,7 +128,7 @@ export default function TermsOfService() {
             </p>
             <p className="text-gray-700 mt-2">
               Email: legal@allareacodes.cloud<br />
-              Address: [Your Address]
+              Address: [legal@allareacodes.cloud]
             </p>
           </section>
         </div>

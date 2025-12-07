@@ -366,8 +366,11 @@ export default function AreaCodePage({ areaCode }) {
             </div>
           </div>
 
-          {/* Sidebar */}
+         {/* Sidebar */}
           <aside className="space-y-6">
+            
+            {/* SIDEBAR AD - AT THE TOP */}
+            <AdPlaceholder position="sidebar" />
             
             {/* Related Area Codes */}
             {areaCode.related_codes && areaCode.related_codes.length > 0 && (
@@ -391,7 +394,7 @@ export default function AreaCodePage({ areaCode }) {
                 </div>
               </div>
             )}
-
+          
             {/* Quick Links */}
             <nav className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
               <h3 className="font-bold text-gray-900 mb-4 flex items-center gap-2">
@@ -430,9 +433,6 @@ export default function AreaCodePage({ areaCode }) {
                 </Link>
               </div>
             </nav>
-
-            <AdPlaceholder position="sidebar" />
-
             {/* Did You Know */}
             <div className="bg-gradient-to-br from-blue-600 to-indigo-700 rounded-2xl p-6 text-white">
               <h3 className="font-bold mb-3 flex items-center gap-2">

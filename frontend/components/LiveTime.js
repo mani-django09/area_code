@@ -1,7 +1,6 @@
 "use client"
 
-import { useState, useEffect } from "react"
-import { Maximize2 } from "lucide-react"
+import { useState, useEffect, memo } from "react"
 
 // Time Zone Mapping
 const TIME_ZONES = {
@@ -29,43 +28,62 @@ function getDisplayName(timezone) {
   return timezone
 }
 
-export default function LiveTime({ timezone = "Eastern Time" }) {
+function LiveTime({ timezone = "Eastern Time" }) {
+  const [mounted, setMounted] = useState(false)
   const [currentTime, setCurrentTime] = useState(null)
 
   useEffect(() => {
+    setMounted(true)
+    
     const updateTime = () => {
       const timeZone = TIME_ZONES[timezone] || "America/New_York"
       const now = new Date()
 
-      const formatter = new Intl.DateTimeFormat("en-US", {
-        timeZone,
-        hour: "2-digit",
-        minute: "2-digit",
-        second: "2-digit",
-        hour12: true,
-      })
+      try {
+        const formatter = new Intl.DateTimeFormat("en-US", {
+          timeZone,
+          hour: "2-digit",
+          minute: "2-digit",
+          second: "2-digit",
+          hour12: true,
+        })
 
-      const parts = formatter.formatToParts(now)
-      const hours = parts.find((p) => p.type === "hour")?.value || "12"
-      const minutes = parts.find((p) => p.type === "minute")?.value || "00"
-      const seconds = parts.find((p) => p.type === "second")?.value || "00"
-      const period = parts.find((p) => p.type === "dayPeriod")?.value || "AM"
+        const parts = formatter.formatToParts(now)
+        const hours = parts.find((p) => p.type === "hour")?.value || "12"
+        const minutes = parts.find((p) => p.type === "minute")?.value || "00"
+        const seconds = parts.find((p) => p.type === "second")?.value || "00"
+        const period = parts.find((p) => p.type === "dayPeriod")?.value || "AM"
 
-      const dateString = now.toLocaleDateString("en-US", {
-        timeZone,
-        weekday: "long",
-        year: "numeric",
-        month: "long",
-        day: "numeric",
-      })
+        const dateString = now.toLocaleDateString("en-US", {
+          timeZone,
+          weekday: "long",
+          year: "numeric",
+          month: "long",
+          day: "numeric",
+        })
 
-      setCurrentTime({
-        hours,
-        minutes,
-        seconds,
-        period,
-        date: dateString,
-      })
+        setCurrentTime({
+          hours,
+          minutes,
+          seconds,
+          period,
+          date: dateString,
+        })
+      } catch (err) {
+        // Fallback for invalid timezone
+        setCurrentTime({
+          hours: now.getHours().toString().padStart(2, '0'),
+          minutes: now.getMinutes().toString().padStart(2, '0'),
+          seconds: now.getSeconds().toString().padStart(2, '0'),
+          period: now.getHours() >= 12 ? 'PM' : 'AM',
+          date: now.toLocaleDateString("en-US", {
+            weekday: "long",
+            year: "numeric",
+            month: "long",
+            day: "numeric",
+          }),
+        })
+      }
     }
 
     updateTime()
@@ -74,35 +92,47 @@ export default function LiveTime({ timezone = "Eastern Time" }) {
     return () => clearInterval(interval)
   }, [timezone])
 
-  if (!currentTime) return null
-
   return (
-    <div className="bg-white rounded-xl p-8 border border-gray-100 shadow-md relative min-w-[380px]">
-      {/* Expand button - top right */}
-      <button
-        className="absolute top-5 right-5 text-gray-400 hover:text-gray-600 transition-colors"
-        aria-label="Expand"
-      >
-        <Maximize2 size={18} strokeWidth={1.5} />
-      </button>
-
+    <div 
+      className="bg-white rounded-xl p-6 sm:p-8 border border-gray-100 shadow-md relative"
+      style={{ minHeight: '180px', minWidth: '280px' }} // Fixed dimensions prevent CLS
+    >
       {/* Timezone label */}
-      <div className="text-[22px] text-[#6b7c93] font-normal mb-4 tracking-wide">{getDisplayName(timezone)}</div>
-
-      {/* Time display - matching exact screenshot proportions */}
-      <div className="flex items-baseline mb-4">
-        {/* Hours and Minutes - very large */}
-        <span className="text-[72px] font-bold text-[#1a1a1a] leading-none tracking-tight">
-          {currentTime.hours}:{currentTime.minutes}
-        </span>
-        {/* Seconds - medium with colon */}
-        <span className="text-[36px] font-medium text-[#1a1a1a] leading-none">:{currentTime.seconds}</span>
-        {/* AM/PM - medium, slightly separated */}
-        <span className="text-[28px] font-medium text-[#1a1a1a] leading-none ml-1.5">{currentTime.period}</span>
+      <div className="text-lg sm:text-[22px] text-[#6b7c93] font-normal mb-3 sm:mb-4 tracking-wide">
+        {getDisplayName(timezone)}
       </div>
 
-      {/* Date - styled like timezone */}
-      <div className="text-[20px] text-[#6b7c93] font-normal tracking-wide">{currentTime.date}</div>
+      {/* Time display - with placeholder for SSR */}
+      <div className="flex items-baseline mb-3 sm:mb-4" style={{ minHeight: '72px' }}>
+        {mounted && currentTime ? (
+          <>
+            <span className="text-5xl sm:text-[72px] font-bold text-[#1a1a1a] leading-none tracking-tight">
+              {currentTime.hours}:{currentTime.minutes}
+            </span>
+            <span className="text-2xl sm:text-[36px] font-medium text-[#1a1a1a] leading-none">
+              :{currentTime.seconds}
+            </span>
+            <span className="text-xl sm:text-[28px] font-medium text-[#1a1a1a] leading-none ml-1.5">
+              {currentTime.period}
+            </span>
+          </>
+        ) : (
+          // Placeholder to prevent layout shift
+          <span className="text-5xl sm:text-[72px] font-bold text-gray-300 leading-none tracking-tight">
+            --:--
+          </span>
+        )}
+      </div>
+
+      {/* Date */}
+      <div 
+        className="text-base sm:text-[20px] text-[#6b7c93] font-normal tracking-wide"
+        style={{ minHeight: '24px' }}
+      >
+        {mounted && currentTime ? currentTime.date : '\u00A0'}
+      </div>
     </div>
   )
 }
+
+export default memo(LiveTime)

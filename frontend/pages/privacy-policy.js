@@ -125,7 +125,7 @@ export default function PrivacyPolicy() {
             </p>
             <p className="text-gray-700 mt-2">
               Email: privacy@allareacodes.cloud<br />
-              Address: [Your Address]
+              Address: [privacy@allareacodes.cloud]
             </p>
           </section>
         </div>
